@@ -1,7 +1,8 @@
 {
   "name": "chat.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "Online chat application backend",
+  "keywords": ["chat", "nodejs", "typescript", "express", "socket.io", "prisma", "postgres"],
   "main": "./public/app.js",
   "type": "module",
   "scripts": {
@@ -11,7 +12,6 @@
     "dev:migrate": "npx prisma migrate dev --name init && npm run dev",
     "lint": "npx eslint src . --ext .ts --fix"
   },
-  "keywords": [],
   "author": "Firdavs Ergashev<firdavsergashev2001@gmail.com>",
   "license": "ISC",
   "dependencies": {
